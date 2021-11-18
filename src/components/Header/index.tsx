@@ -1,15 +1,13 @@
 import React from 'react';
 
 import { Container, Content } from './styles';
+import logo from '../../assets/images/marvel-logo.png';
 
 const Header: React.FC = () => {
   return (
     <Container>
       <Content>
-        <img
-          src="https://www.objective.com.br/wp-content/uploads/2020/11/logo.svg"
-          alt="Logo"
-        />
+        <img src={logo} alt="Logo" />
       </Content>
     </Container>
   );
